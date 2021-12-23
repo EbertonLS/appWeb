@@ -1,7 +1,15 @@
-* {
+*,
+a,
+ul {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+
+  /*retirando o sublinhado do link*/
+  text-decoration: none;
+
+  /*retirando a marcação da lista*/
+  list-style-type: none;
 }
 
 body {
@@ -24,14 +32,12 @@ body {
 }
 
 #ap-main-nav ul {
-  list-style-type: none;
   float: right;
   margin-top: 55px;
 }
 
 #ap-main-nav ul a {
   color: #ffa500;
-  text-decoration: none;
   font-size: 16px;
   text-transform: uppercase;
 }
