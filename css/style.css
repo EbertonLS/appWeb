@@ -1,0 +1,46 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #a118a1;
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/PL-FUNDO.jpg  ");
+  background-size: cover;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.ap-logo {
+  font-size: 16px;
+  float: left;
+  margin-top: 55px;
+}
+
+#ap-main-nav ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 55px;
+}
+
+#ap-main-nav ul a {
+  color: #ffa500;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#ap-main-nav ul li {
+  display: inline-block;
+  margin-right: 25px;
+}
+
+#ap-main-nav ul li:last-child {
+  margin-right: 0px;
+}
